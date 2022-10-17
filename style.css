@@ -34,7 +34,7 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-header,main .mainTitle,footer{
+header,main .mainTitle, footer{
   padding:0 20%;
 }
 
@@ -100,4 +100,35 @@ main .mainTitle .text button{
 }
 main .mainTitle img{
   width: 500px;
+}
+/*-------------------------------------------------------------*/
+
+main .widgets{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 25%;
+  padding-bottom: 100px;
+  text-align: center;
+}
+main .widgets h3{
+  font-size: 38px;
+}
+main .widgets .cards{
+  display: flex;
+}
+main .widgets .cards .card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .widgets .cards .card p{
+  padding: 0 25px;
+}
+
+main .widgets .cards .card img{
+  width: 80%;
+  border: #3882F6 5px solid;
+  border-radius: 20px;
 }
