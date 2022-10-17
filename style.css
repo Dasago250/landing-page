@@ -193,3 +193,22 @@ main .callAction .blueSection button{
 }
 
 /*---------------------------------------------------------------------------*/
+
+footer{
+  background-color: #1F2937;
+  color: #FFF;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:15px 0;
+}
+
+footer a{
+  color: #FFF;
+  text-decoration: none;
+}
+footer a:visited{
+  color: #FFF;
+  text-decoration: none;
+}
