@@ -34,8 +34,8 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-header,main,footer{
-  padding:0 15%;
+header,main .mainTitle,footer{
+  padding:0 20%;
 }
 
 
@@ -53,8 +53,51 @@ header .links{
   padding: 0;
   display: flex;
   gap: 20px;
+  font-size: 18px;
 }
 header .links li a{
   color: #FFF;
   text-decoration: none;
+}
+/*------------------------------------------------------------------------- */
+main{
+  display: flex;
+  flex-direction: column;
+}
+main .mainTitle{
+  background-color: #1F2937;
+  height: 50vh;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+}
+main .mainTitle .text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+main .mainTitle .text h2{
+  font-size: 48px;
+  margin: 0;
+  margin-right: 40%;
+}
+main .mainTitle .text p{
+  margin: 0;
+  margin-right: 10%;
+}
+main .mainTitle .text button{
+  border: none;
+  background-color: #3882F6;
+  font-size: 18px;
+  padding: 8px 30px;
+  border-radius: 10px;
+  color: #FFF;
+  font-weight: bold;
+  margin-top: 15px;
+}
+main .mainTitle img{
+  width: 500px;
 }
