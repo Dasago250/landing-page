@@ -19,9 +19,9 @@
 
 @font-face {
   font-family: 'Roboto';
-  src: url(./Fonts/Roboto-ThinItalic.ttf);
+  src: url(./Fonts/Roboto-LightItalic.ttf);
   font-style: italic;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 *{
@@ -131,4 +131,26 @@ main .widgets .cards .card img{
   width: 80%;
   border: #3882F6 5px solid;
   border-radius: 20px;
+}
+
+/*----------------------------------------------------------------------------*/
+
+main .quote{
+  background-color: #E5E7EB;
+  padding:100px 27%;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+}
+main .quote .sentence{
+  margin: 0;
+}
+main .quote .author{
+  align-self: flex-end;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  margin: 0;
 }
