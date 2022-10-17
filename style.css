@@ -34,7 +34,7 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-header,main .mainTitle, footer{
+header,main .mainTitle, main .callAction ,footer{
   padding:0 20%;
 }
 
@@ -154,3 +154,42 @@ main .quote .author{
   font-style: normal;
   margin: 0;
 }
+
+/*--------------------------------------------------------------------------------*/
+
+main .callAction{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+}
+main .callAction .blueSection{
+  flex: 1 1 auto;
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 10%;
+  color: #FFF;
+  border-radius: 20px;
+}
+main .callAction .blueSection .text h4,
+main .callAction .blueSection .text p{
+  margin: 0;
+}
+
+main .callAction .blueSection .text h4{
+  font-size: 24px;
+}
+main .callAction .blueSection button{
+  align-self: center;
+  background-color: #3882F6;
+  border: 3px solid #FFF;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px 5%;
+  border-radius: 10px;
+}
+
+/*---------------------------------------------------------------------------*/
